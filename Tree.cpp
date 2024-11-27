@@ -20,7 +20,7 @@ public:
 
 int main()
 {
-
+    setlocale(LC_ALL, "Russian");
     int menu = 0;
 
     BDP* first = new BDP;
